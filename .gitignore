@@ -1,1 +1,20 @@
-wallet/wallet.rkt~
+# Backup & autosave files
+*~
+# Swap and autosave
+.*.swp
+# Emacs autosave
+#*#
+\#*#
+
+# Compiled files & error traces
+*.zo
+*.dep
+compiled/
+wallet/compiled/
+
+# Scribble cache
+scribblings-cache/
+
+# OS cruft
+.DS_Store
+Thumbs.db
